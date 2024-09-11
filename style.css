@@ -57,11 +57,12 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
 
-li.completed {
+li.completed span {
     text-decoration: line-through;
     color: grey;
 }
@@ -72,4 +73,13 @@ button.delete-btn {
 
 button.delete-btn:hover {
     background-color: #c82333;
+}
+
+button.edit-btn {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+button.edit-btn:hover {
+    background-color: #0056b3;
 }
